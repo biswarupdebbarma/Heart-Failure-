@@ -10,7 +10,7 @@ loaded_scaler = loaded_artifact["scaler"]
 feature_names = loaded_artifact["feature_names"]
 
 st.title("Heart Failure Prediction App by Biswarup Debbarma")
-st.image("assets/heart.svg", caption="", width=220)
+
 st.write("Please enter the patient's details below:")
 
 # Create input fields for each feature
